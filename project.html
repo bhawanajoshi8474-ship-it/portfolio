@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FoodieHub</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>.FoodieHub</h1>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+    </nav>
+</header>
+<section class="hero">
+    <h2>Delicious Food Delivered To You</h2>
+    <button onclick="scrolltomenu()"> order now
+    </button>
+</section>
+<section id="menu" class="menu">
+    <h2>Our Menu</h2>
+    <input type="text" id="search" placeholder="Search food..." onkeyup="searchFood()">
+    <div class="items" id="food-list">
+        <div class="card">
+            <img src="pizza.jpeg">
+            <h3>Pizza</h3><p>Rs199</p><button>Order</button>
+            </h3></div>
+        <div class="card">
+            <img src="burger.avif">
+            <h3>Burger</h3><p> Rs99 </p><button>Order</button></div>
+        <div class="card">
+            <img src="pasta.jpg">
+            <h3>Pasta</h3><p>Rs149</p><button>Order</button></div>
+        <div class="card">
+            <img src="sandwich.jpg">
+            <h3>Sandwich</h3><p>Rs79</p><button>Order</button></div>
+        <div class="card">
+            <img src="french fries.webp">
+            <h3>French Fries</h3><p>Rs69</p><button>Order</button></div>
+        <div class="card">
+            <img src="cold coffee.avif">
+            <h3>Cold coffee</h3><p>Rs49</p><button>order</button></div>
+        <div class="card">
+            <img src="ice cream.jpg">
+            <h3>Ice Cream</h3><p>Rs89</p><button>order</button></div>
+        <div class="card">
+            <img src="chocolate cake.jpg">
+            <h3>Chocolate Cake</h3><p>Rs199</p><button>order</button></div>
+            <div class="card">
+                <img src="noodles.webp">
+                <h3>noodles</h3><p>Rs120</p><button>Order</button>
+            </div>
+            <div class="card">
+                <img src="momoes.avif">
+                <h3>momos</h3><p>Rs160</p><button>Order</button>
+            </div>
+            <div class="card">
+                <img src="chilli potato.jpg">
+                <h3>chilli potato</h3><p>Rs140</p><button>Order</button>
+            </div>
+            <div class="card">
+                <img src="Vegetable-Soup.jpg">
+                <h3>vegetable soup</h3><p>Rs120</p><button>Order</button>
+            </div>
+    </div>
+    <form id="order form">
+        <input type="text" id="name"
+        placeholder="your name" reguired>
+        <input type="text" id="food"
+        placeholder="food item" required>
+        <input type="number" id="quantity">
+        <input type="quantity" required>
+        <button type="submit">Order now</button>
+    </form>
+    <a href="hattps://wa.me/7494830534" target="-blank"></a>
+</section>
+<script src="script.js"></script>
+</body>
+</html>
